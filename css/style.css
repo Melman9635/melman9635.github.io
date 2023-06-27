@@ -1,0 +1,496 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*=========================================Шапка всех страниц=========================================*/
+
+body {
+    background: black;
+    color: white;
+}
+
+.Logo, .Top_menu{
+    margin-right: 168px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+header{
+    border: 
+      3px
+      solid
+      white;
+      background: rgba(165, 165, 165, 0.123);
+      backdrop-filter: blur(16px);
+    display: flex;
+    justify-content: center;
+}
+
+.Top_menu li{
+    margin-right: 150px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.Top_menu a{
+    vertical-align: middle;
+    font-family: Dark-Uphorigenic;
+    font-size: 28px;
+    color: white;
+    text-decoration: none;
+}
+
+.Top_menu a:hover{
+    color: #26C4FF;
+}
+
+.Logo h1{
+    border: 
+      3px
+      solid
+      white;
+    vertical-align: middle;
+    font-family: Dark-Uphorigenic;
+    font-size: 8px;
+    color: white;
+}
+main .glavname{
+    text-align: center;
+}
+
+/*=========================================Подвал всех страниц=========================================*/
+
+footer {
+    font-size: 20px;
+    padding: 4px;
+    background-color: black;
+    border: solid white;
+}
+
+.footer-text {
+    color: white;
+    font-family: Dark-Uphorigenic;
+    text-align: center;
+}
+
+
+
+/*=========================================Главная страница=========================================*/
+
+main5{
+    background: url(https://gamerwall.pro/uploads/posts/2021-12/1638886838_52-gamerwall-pro-p-chernii-ritsar-dark-souls-fentezi-krasivo-57.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    display: flex;
+    height: 110vh;
+}
+
+.text1 {
+    border-radius: 10px;
+    border: 
+      3px
+      solid
+      white;
+    padding: 35px 15px;
+    max-width: 500px;
+    max-height: 160px;
+    background: rgba(165, 165, 165, 0.123);
+    backdrop-filter: blur(16px);
+    margin-left: 1250px;
+    margin-top: 500px;
+}
+
+.text1 h2{
+    font-family: arial;
+    font-weight: normal;
+    font-size: 30px;
+    color: white;
+    font-family:"Dark-Uphorigenic";
+}
+
+video {
+    border-radius: 12px;
+    border: 
+      3px
+      solid
+      white;
+    background: rgba(165, 165, 165, 0.123);
+    backdrop-filter: blur(16px);
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+
+/*=========================================Секция с боссами(оформление)=========================================*/
+
+main {
+    background: url(https://phonoteka.org/uploads/posts/2021-06/1622555665_5-phonoteka_org-p-iritil-kholodnoi-dolini-art-krasivo-5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    display: flex;
+    height: 90vh;
+}
+
+.text2 {
+    border-radius: 10px;
+    border: 
+      3px
+      solid
+      white;
+    padding: 35px 15px;
+    max-width: 1460px;
+    max-height: 130px;
+    background: rgba(190, 190, 190, 0.295);
+    backdrop-filter: blur(20px);
+    margin-left: 18px;
+    margin-top: 600px;
+}
+
+.text2 h2{
+    font-family: arial;
+    font-weight: normal;
+    font-size: 30px;
+    color: white;
+    font-family:"Dark-Uphorigenic";
+}
+
+/*=========================================Секция с боссами(список)=========================================*/
+
+
+main4 .Gundir{
+    border: 
+    3px
+    solid
+    white;
+    background: rgba(165, 165, 165, 0.123);
+    backdrop-filter: blur(16px);
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width:350px;
+    height:350px;
+    overflow: hidden;
+}
+
+main4 .Gundirphoto,
+main4 .Gundirtext{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+main4 .Gundirphoto img{
+    width: 100%;
+}
+
+main4 .Gundirtext{
+    background: rgba(46, 45, 45, 0.9);
+    top: 100%;
+    padding:30px 30px;
+}
+
+main4:hover .Gundirtext{
+    top: 0;
+}
+
+main4 .Gundirtext h2{
+    font-family: Dark-Uphorigenic;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0 0 12px;
+    border-bottom: 2px solid white;
+    animation: anim 5s linear infinite;
+}
+
+@keyframes anim{
+    0%{border-bottom: 2px solid #BFDCC7;}
+    25%{border-bottom: 2px solid #A6DCA8;}
+    50%{border-bottom: 2px solid #7AF571;}
+    75%{border-bottom: 2px solid #A6DCA8;}
+    100%{border-bottom: 2px solid #EBEBEB;}
+}
+
+main4 .Gundirtext p{
+    font-family: Dark-Uphorigenic;
+    margin:12px 0 0;
+    color:white;
+    letter-spacing: 0.6px;
+    font-size:22px;
+}
+
+main2 .Vordt{
+    border: 
+    3px
+    solid
+    white;
+    background: rgba(165, 165, 165, 0.123);
+    backdrop-filter: blur(16px);
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+    width:350px;
+    height:350px;
+    overflow: hidden;
+}
+
+main2 .Vordtphoto,
+main2 .Vordttext{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+main2 .Vordtphoto img{
+    width: 110%;
+}
+
+main2 .Vordttext{
+    background: rgba(46, 45, 45, 0.9);
+    top: 0;
+    right: 100%;
+    padding:30px 30px;
+}
+
+main2:hover .Vordttext{
+    top: 0;
+    right: 0;
+}
+
+main2 .Vordttext h2{
+    font-family: Dark-Uphorigenic;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0 0 12px;
+    border-bottom: 2px solid white;
+    animation: anim 5s linear infinite;
+}
+
+@keyframes anim{
+    0%{border-bottom: 2px solid #BFDCC7;}
+    25%{border-bottom: 2px solid #A6DCA8;}
+    50%{border-bottom: 2px solid #7AF571;}
+    75%{border-bottom: 2px solid #A6DCA8;}
+    100%{border-bottom: 2px solid #EBEBEB;}
+}
+
+main2 .Vordttext p{
+    font-family: Dark-Uphorigenic;
+    margin:12px 0 0;
+    color:white;
+    letter-spacing: 0.6px;
+    font-size:23px;
+}
+
+main3 .Tansov{
+    border: 
+    3px
+    solid
+    white;
+    background: rgba(165, 165, 165, 0.123);
+    backdrop-filter: blur(16px);
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(-50%,-50%);
+    width:350px;
+    height:350px;
+    overflow: hidden;
+}
+
+main3 .Tansovphoto,
+main3 .Tansovtext{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+main3 .Tansovphoto img{
+    width: 130%;
+}
+
+main3 .Tansovtext{
+    background: rgba(46, 45, 45, 0.9);
+    top: 0;
+    left: 100%;
+    padding:30px 30px;
+}
+
+main3:hover .Tansovtext{
+    top: 0;
+    left: 0;
+}
+
+main3 .Tansovtext h2{
+    font-family: Dark-Uphorigenic;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0 0 12px;
+    border-bottom: 2px solid white;
+    animation: anim 5s linear infinite;
+}
+
+@keyframes anim{
+    0%{border-bottom: 2px solid #BFDCC7;}
+    25%{border-bottom: 2px solid #A6DCA8;}
+    50%{border-bottom: 2px solid #7AF571;}
+    75%{border-bottom: 2px solid #A6DCA8;}
+    100%{border-bottom: 2px solid #EBEBEB;}
+}
+
+main3 .Tansovtext p{
+    font-family: Dark-Uphorigenic;
+    margin:12px 0 0;
+    color:white;
+    letter-spacing: 0.6px;
+    font-size:23px;
+}
+
+/*=========================================Лор игры (анимки)=========================================*/
+
+main .glavname{
+    text-align: center;
+}
+
+mainlor .lor1 {
+    transform: translateX(-150%);
+    animation: ani1 2s forwards;
+}
+  
+@keyframes ani1 {
+    0% {transform: translateX(-150%);}
+    100% {transform: translateY(0);}
+}
+
+mainlor .lorphoto1 {
+    transform: translateX(150%);
+    animation: ani 2s forwards;
+}
+  
+@keyframes ani {
+    0% {transform: translateX(150%);}
+    100% {transform: translateY(0);}
+}
+
+mainlor .lor2 {
+    transform: translateX(150%);
+    animation: ani2 2s forwards;
+}
+  
+@keyframes ani2 {
+    0% {transform: translateX(150%);}
+    100% {transform: translateY(0);}
+}
+
+mainlor .lorphoto2 {
+    transform: translateX(-150%);
+    animation: ani3 2s forwards;
+}
+  
+@keyframes ani3 {
+    0% {transform: translateX(-150%);}
+    100% {transform: translateY(0);}
+}
+
+/*=========================================Лор игры (текст и картинки)=========================================*/
+
+.lor1 {
+    border-radius: 10px;
+    border: 
+      3px
+      solid
+      white;
+    font-family:"Dark-Uphorigenic";
+    padding: 35px 15px;
+    max-width: 700px;
+    max-height: 800px;
+    background: rgba(165, 165, 165, 0.123);
+    backdrop-filter: blur(16px);
+    margin-left: 60px;
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+.lor1 h2{
+    font-family: arial;
+    font-weight: normal;
+    font-size: 40px;
+    color: white;
+    font-family:"Dark-Uphorigenic";
+}
+
+.lorphoto1 {
+    border-radius: 12px;
+    border: 
+      3px
+      solid
+      white;
+    background: rgba(165, 165, 165, 0.123);
+    backdrop-filter: blur(16px);
+    position: absolute;
+    max-width: 1200px;
+    max-height: 1000px;
+    margin-left: 1100px;
+    margin-top: -320px;
+}
+
+.lor2 {
+    border-radius: 10px;
+    border: 
+      3px
+      solid
+      white;
+    font-family:"Dark-Uphorigenic";
+    padding: 35px 15px;
+    max-width: 700px;
+    max-height: 500px;
+    background: rgba(165, 165, 165, 0.123);
+    backdrop-filter: blur(16px);
+    margin-left: 1060px;
+    margin-top: 150px;
+    font-size: 25px;
+}
+
+.lor2 h2{
+    font-family: arial;
+    font-weight: normal;
+    font-size: 40px;
+    color: white;
+    font-family:"Dark-Uphorigenic";
+}
+
+.lorphoto2 {
+    border-radius: 12px;
+    border: 
+      3px
+      solid
+      white;
+    background: rgba(165, 165, 165, 0.123);
+    backdrop-filter: blur(16px);
+    position: absolute;
+    max-width: 1200px;
+    max-height: 1000px;
+    margin-left: 87px;
+    margin-top: -410px;
+}
