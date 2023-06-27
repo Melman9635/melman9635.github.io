@@ -80,7 +80,7 @@ footer {
 /*=========================================Главная страница=========================================*/
 
 main5{
-    background: url(https://gamerwall.pro/uploads/posts/2021-12/1638886838_52-gamerwall-pro-p-chernii-ritsar-dark-souls-fentezi-krasivo-57.jpg);
+    background-image: url("../image/main5.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     justify-content: center;
@@ -128,7 +128,7 @@ video {
 /*=========================================Секция с боссами(оформление)=========================================*/
 
 main {
-    background: url(https://phonoteka.org/uploads/posts/2021-06/1622555665_5-phonoteka_org-p-iritil-kholodnoi-dolini-art-krasivo-5.jpg);
+    background-image: url("../image/main.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     justify-content: center;
